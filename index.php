@@ -2,7 +2,7 @@
 
 	<body class="index-page">
 		<?php require_once("templates/header.php"); ?>
-			
+
 			<div class="container navbar-fixed-top-padding bg-white">
 				<div class="row">
 					<div class="col-md-12">
@@ -37,11 +37,11 @@
 										<h3>Доставка рыбопосадочного материала</h3>
 									</div>
 								</div>
-								
+
 								<div class="item">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
 									<div class="carousel-caption">
-										<h3>Организация платной рыбалки</h3>
+										<h3>Организация платной рыбалки - скоро!</h3>
 									</div>
 								</div>
 							</div>
@@ -57,7 +57,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="container bg-white commercial-fish-wrapper">
 				<div class="text-center">
 					<h1 data-cat-title="Товарная рыба">Товарная рыба</h1>
@@ -97,7 +97,7 @@
 					<a href="#order-form" class="fancybox-modal btn btn-small btn-blue btn-order btn-index"><i class="fa fa-check"></i> Заказать</a>
 				</div>
 			</div>
-			
+
 			<div class="container bg-white fish-seed-wrapper">
 				<div class="text-center">
 					<h1 data-cat-title="Рыбопосадочный материал">Рыбопосадочный материал</h1>
@@ -171,23 +171,23 @@
 							<div class="services-item">
 								<i class="fa fa-thumbs-o-up"></i>
 								<div class="services-item-sign"><a href="services.php">Платная <br> рыбная ловля</a></div>
-								<p>(цены уточняйте <a href="contacts.php">по телефону</a>)</p>
+								<p>(скоро - уточняйте <a href="contacts.php">по телефону</a>)</p>
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="text-center btn-wrapper">
 						<a href="services.php" class="btn btn-small btn-blue btn-index">Узнать больше <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="container bg-ochre facts-wrapper">
 				<div class="fullwidth-block">
 					<div class="text-center">
 						<h1>Несколько фактов</h1>
 					</div>
-					
+
 					<div class="row facts-in-numbers">
 						<div class="col-md-3">
 							<div class="spincrement-wrapper">
@@ -196,7 +196,7 @@
 							</div>
 							<div class="number-description">сотрудничаем с ГНУ ВНИИ Ирригационного рыбоводства</div>
 						</div>
-						
+
 						<div class="col-md-3">
 							<div class="spincrement-wrapper">
 								<div class="spincrement">330</div>
@@ -204,7 +204,7 @@
 							</div>
 							<div class="number-description">общая площадь прудов <br> рыбхоза</div>
 						</div>
-						
+
 						<div class="col-md-3">
 							<div class="spincrement-wrapper">
 								<div class="spincrement">~ 100</div>
@@ -212,7 +212,7 @@
 							</div>
 							<div class="number-description">товарной рыбы <br> в год</div>
 						</div>
-						
+
 						<div class="col-md-3">
 							<div class="spincrement-wrapper">
 								<div class="spincrement">35</div>
@@ -221,7 +221,7 @@
 							<div class="number-description">годовиков племенных гибридных карпов <br> в год</div>
 						</div>
 					</div>
-					
+
 					<div class="row facts-in-string">
 						<div class="col-md-6">
 							<div class="string-wrapper">
@@ -229,7 +229,7 @@
 								<p>«Киря» - полносистемное рыбоводное предприятие. <br>В рыбхозе функционирует инкубационный цех для получения личинки.</p>
 							</div>
 						</div>
-						
+
 						<div class="col-md-6">
 							<div class="string-wrapper">
 								<i class="fa fa-star"></i>
@@ -243,14 +243,14 @@
 			<div class="container bg-white">
 				<div class="fullwidth-block contacts">
 					<div id="yandex-map-construct">
-						
+
 					</div>
 
 					<div class="row">
 						<div class="text-center contacts-heading-wrapper">
 							<h1>Будьте с нами на связи!</h1>
 						</div>
-						
+
 						<div class="col-md-5 col-sm-4">
 							<div class="contacts-details-wrapper">
 								<div class="contacts-details">

@@ -7,13 +7,6 @@
 				<div class="text-center">
 					<h1>Услуги</h1>
 				</div>
-				
-				<div class="fullwidth-block">
-					<div class="first-line-ad">
-						<h5>С 01.07.2017 открывается платная рыбалка на карпа!</h5>
-						<p><strong>Стоимость:</strong> 1 000 руб. <strong>Норма вылова:</strong> 6 кг.</p>
-					</div>
-				</div>
 
 				<div class="fullwidth-block services-inner">
 					<div class="services-inner-wrapper">
@@ -32,7 +25,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="col-md-6">
 								<div class="services-inner-item">
 									<div class="div-as-table">
@@ -48,7 +41,7 @@
 								</div>
 							</div>
 						</div>
-						
+
 						<div class="row">
 							<div class="col-md-6">
 								<div class="services-inner-item bottom">
@@ -63,17 +56,14 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="col-md-6">
 								<div class="services-inner-item bottom">
 									<div class="div-as-table">
 										<div class="div-as-table-cell">
 											<i class="fa fa-thumbs-o-up context-icon"></i>
 											<h5>Организация <br> платной рыбалки</h5>
-											<!--
-											<p class="services-pay-fishing">Цены уточняйте по <a href="contacts.php">телефону</a> <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a></p>
-											-->
-											<p class="services-pay-fishing">Стоимость: 1 000 руб.<a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a></p>
+											<p class="services-pay-fishing">Скоро!<a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a></p>
 										</div>
 									</div>
 								</div>
