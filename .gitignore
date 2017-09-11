@@ -1,0 +1,7 @@
+# kirya :: .gitignore
+
+/docs
+/img
+favicon.ico
+robots.txt
+hoster_block.html

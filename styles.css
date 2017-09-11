@@ -1,0 +1,1317 @@
+/* === Base === */
+
+html, body {
+	padding: 0;
+	height: 100%;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 1.3;
+}
+
+body {
+	position: relative;
+	background: url(img/pond-1-for-web.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.page-wrapper {
+	min-height: 100%;
+	margin-bottom: -100px;
+	background: rgba(255, 255, 255, .4);
+}
+
+* html .page-wrapper {
+	height: 100%;
+}
+
+.navbar-fixed-top-padding {
+	padding-top: 15px;
+}
+
+.page-buffer {
+	height: 100px;
+}
+
+.fullwidth-block {
+	margin: 15px 0;
+	padding: 20px 0;
+}
+
+.fullwidth-block.fullwidth-shift {
+	margin: 0 -15px;
+	padding: 30px 40px !important;
+}
+
+.nomargin {
+	margin: 0 !important;
+}
+
+
+/* General Text Styles */
+
+ul {
+	list-style: none;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+ul, ol {
+	padding-left: 0;
+}
+
+ul li, ol li {
+	position: relative;
+}
+
+ul.default-list li, ol li {
+	margin-bottom: 1.2rem;
+}
+
+.default-list li:before {
+	content: "\f105";
+	margin-right: 6px;
+	font-family: FontAwesome;
+	color: #c0c0c0;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+
+.dark-brown-txt {
+	color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 2.5rem 0;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	color: #444;
+}
+
+h1 {
+	font-size: 4.5rem;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 3.5rem;
+}
+
+h4 {
+	font-size: 3rem;
+}
+
+h5 {
+	font-size: 2.5rem;
+}
+
+h6 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+/* / General Text Styles */
+
+
+/* General Styles of Links */
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a img {
+	border: none;
+	outline: none;
+}
+
+a {
+	color: #06c;
+}
+
+a:hover {
+	color: #09f;
+}
+
+/* / General Styles of Links */
+
+
+/* General table styles */
+
+table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	vertical-align: middle;
+}
+
+.div-as-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.div-as-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+/* / General table styles */
+
+
+/* General Styles of Buttons */
+
+.btn {
+	position: relative;
+	transition: all .3s linear;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-small {
+	font-size: 1.5rem;
+}
+
+.btn-medium {
+	font-size: 2.2rem;
+}
+
+.btn-large {
+	font-size: 2.9rem;
+}
+
+.btn-blue {
+	background: #06c;
+	color: #fff;
+}
+.btn-blue:hover, .btn-blue:focus {
+	background: #32cee0;
+	color: #fff;
+}
+
+.btn-bordered {
+	margin-top: 10px;
+	border: 1px solid rgba(255, 255, 255, .5);
+	letter-spacing: 1px;
+	color: rgba(255, 255, 255, .7);
+}
+.btn-bordered:hover {
+	border-color: rgba(255, 255, 255, .7);
+	color: rgba(255, 255, 255, .9);
+}
+
+.btn-bordered.gray-border {
+	margin: 0;
+	border-color: #999;
+	color: #666;
+}
+.btn-bordered.gray-border:hover {
+	border-color: #333;
+	color: #333;
+}
+
+.btn-wrapper {
+	padding: 20px 0;
+}
+
+/* / General Styles of Buttons */
+
+
+input, textarea {
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+textarea {
+	resize: none;
+	min-height: 120px;
+}
+
+/* / === Base === */
+
+
+/* === Content === */
+
+.hidden-block {
+	display: none;
+}
+
+.header {
+	height: 151px;
+	background: #fff;
+}
+
+.top-info {
+	box-sizing: border-box;
+	padding: 10px 0;
+	height: 100px;
+}
+
+.top-info .col-md-4:first-child {
+	padding-top: 15px;
+}
+
+.top-info .col-md-4:last-child {
+	padding-top: 25px;
+}
+
+.top-info-item {
+	text-align: center;
+}
+
+.top-info-item p {
+	font-size: 1.7rem;
+}
+
+.top-logo {
+	display: block;
+	height: 80px;
+	background: url(img/logo.png) no-repeat center;
+	background-size: contain;
+}
+
+ul.top-contacts {
+	line-height: 1;
+	font-size: 2.2rem;
+}
+
+ul.top-contacts li a {
+	position: relative;
+	top: 3px;
+	color: #06c;
+}
+ul.top-contacts li a:hover {
+	color: #09f;
+}
+
+ul.top-contacts i.fa {
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #32cee0;
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+
+.navbar-default {
+	background: #06c;
+	border-color: #06c;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.nav > li > a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-nav > li {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.navbar-nav > li > a {
+	font-size: 1.8rem;
+	transition: all .3s linear;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	background: #09f;
+	color: #fff;
+}
+
+.navbar-toggle {
+	border-radius: 0 !important;
+	border: none;
+	transition: all .3s linear;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+	background: #06c;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	background: #09f;
+	color: #fff;
+}
+
+.dropdown-menu {
+	min-width: 100%;
+	width: 100%;
+	background: #09f;
+	box-shadow: none;
+	border: none;
+}
+
+.dropdown-menu > li > a {
+	position: relative;
+	padding: 10px 20px;
+	background: none;
+	color: #fff;
+	transition: all .3s linear;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	padding-left: 30px;
+	background: none;
+	color: #fff;
+}
+.dropdown-menu > li > a:focus:before, .dropdown-menu > li > a:hover:before {
+	content: "\f0da";
+	position: absolute;
+	left: 10px;
+	font-family: "FontAwesome";
+}
+
+.caret {
+	visibility: hidden;
+}
+
+
+.to-top {
+	position: fixed !important;
+	top: 0 !important;
+	z-index: 20;
+	transition: all .3s linear;
+}
+
+
+.navbar-fixed-top {
+	top: 100px;
+}
+
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-ochre {
+	background: #e6c382;
+}
+
+
+.carousel-inner h3 {
+	margin: 0 0 15px !important;
+	font-family: 'Merriweather', serif;
+	color: #fff;
+}
+
+.carousel-control {
+	background-image: none !important;
+	opacity: 1;
+	text-shadow: none;
+}
+.carousel-control:focus, .carousel-control:hover {
+	opacity: 1;
+}
+
+.carousel-control i.fa {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	box-sizing: border-box;
+	width: 50px;
+	height: 50px;
+	background: rgba(0, 0, 0, .5);
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	transition: all .3s linear;
+}
+.carousel-control i.fa:hover {
+	width: 60px;
+	background: rgba(0, 0, 0, .85);
+}
+
+.carousel-control i.fa.left {
+	left: 0;
+}
+.carousel-control i.fa.left:hover {
+	padding-left: 10px;
+}
+
+.carousel-control i.fa.right {
+	right: 0;
+}
+.carousel-control i.fa.right:hover {
+	padding-right: 10px;
+}
+
+#slider-carousel {
+	margin-bottom: 15px;
+}
+
+#slider-carousel .carousel-caption {
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	padding: 20px 0 35px !important;
+	width: 100%;
+	background: rgba(0, 0, 0, .65);
+	text-shadow: none !important;
+}
+
+#slider-carousel .carousel-indicators {
+	bottom: 10px !important;
+}
+
+
+.btn-index {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+.commercial-item {
+	position: relative;
+	overflow: hidden;
+	margin: 15px 0;
+	cursor: pointer;
+	height: 250px;
+}
+
+.index-page .commercial-item {
+	margin-bottom: 0;
+}
+
+.commercial-item .item-sign p {
+	display: none;
+	margin-top: 10px;
+}
+
+.commercial-item:hover .item-bg {
+	transform: scale(1.1);
+}
+
+.item-bg {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover !important;
+	transition: all .3s linear;
+}
+
+.item-bg.bg-carp {
+	background: url(img/content/index/commercial-fish/karp-2-ready.jpg) no-repeat center #e6e6e6;
+}
+.item-bg.bg-tolstolobik {
+	background: url(img/content/index/commercial-fish/tolstolobik-ready.jpg) no-repeat center #e6e6e6;
+}
+.item-bg.bg-white-amur {
+	background: url(img/content/index/commercial-fish/amur-bely-ready.jpg) no-repeat center #e6e6e6;
+}
+
+
+.fish-seed-wrapper {
+	padding-top: 15px;
+	border-top: 1px solid #efefef;
+}
+
+.item-bg.bg-carp-this-year {
+	background: url(img/content/index/fish-seed/karp-godovik.jpg) no-repeat center #e6e6e6;
+}
+.item-bg.bg-tolstolobik-this-year {
+	background: url(img/content/index/fish-seed/tolstolobik-godovik.jpg) no-repeat center #e6e6e6;
+}
+.item-bg.bg-white-amur-this-year {
+	background: url(img/content/index/fish-seed/amur-godovik.jpeg) no-repeat center #e6e6e6;
+}
+
+.item-sign {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+	background: rgba(0, 0, 0, .75);
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+}
+
+
+
+.services-wrapper {
+	padding-top: 15px;
+	border-top: 1px solid #efefef;
+}
+
+.fullwidth-block.services {
+	
+}
+
+.services-wrapper h1 {
+	margin-top: 0;
+}
+
+.services-item {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.services-item i.fa {
+	margin-bottom: 20px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 5px solid rgba(255, 255, 255, .5);
+	background: #e6c382;
+	text-align: center;
+	line-height: 70px;
+	font-size: 3rem;
+	color: #333;
+}
+
+.services-item-sign {
+	margin-bottom: 10px;
+	line-height: 1.2;
+	font-size: 2.3rem;
+}
+
+.services-item-sign a {
+	color: #333;
+}
+.services-item-sign a:hover {
+	color: #000;
+}
+
+
+.docs-wrapper {
+	background: url(img/pattern-light-1.png);
+}
+
+/* Delete these lines after saving as custom blocks */
+
+#testimonials-carousel .carousel-inner > .item {
+	width: 1140px;
+	height: 250px;
+}
+
+#testimonials-carousel .carousel-caption {
+	color: #333;
+	text-shadow: none;
+}
+#testimonials-carousel .carousel-caption:before {
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	content: '\f10d';
+	font-family: 'FontAwesome';
+	font-size: 3rem;
+	color: #999;
+}
+
+#testimonials-carousel .carousel-indicators li {
+	border-color: #333;
+}
+
+
+/* Some Facts */
+
+.facts-in-string {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.string-wrapper {
+	padding: 15px 0;
+	height: 150px;
+	background: rgba(255, 255, 255, .3);
+	box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
+
+.facts-in-string p {
+	margin-top: 15px;
+	font-size: 2rem;
+}
+
+.facts-in-numbers {
+	text-align: center;
+}
+
+.spincrement-wrapper > div {
+	font-family: "Open Sans", sans-serif;
+	font-size: 5rem;
+	animation: scale-nums 1s linear infinite alternate;
+}
+
+.number-description {
+	margin: 15px 0;
+	font-size: 2rem;
+}
+
+/* / Some Facts */
+
+
+.fullwidth-block.contacts {
+	
+}
+
+.contacts {
+	position: relative;
+	height: 500px;
+	background: #ccc;
+}
+
+#yandex-map-construct {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 500px;
+}
+
+.contacts-heading-wrapper {
+	position: relative;
+	top: 30px;
+}
+
+.contacts-details-wrapper {
+	display: table;
+	margin: 50px 0 50px 50px;
+	padding: 20px;
+	width: 100%;
+	height: 250px;
+	background: rgba(255, 255, 255, .85);
+	color: #333;
+}
+
+.contacts-details {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contacts-details p:last-child {
+	padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.contacts-details p:nth-child(3) {
+	margin-bottom: 20px;
+}
+
+.contacts-details i.fa-phone {
+	margin-right: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #32cee0;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.footer {
+	box-sizing: border-box;
+	height: 100px;
+	padding: 20px 0;
+	background: url(img/pattern-dark-1.jpg) #333;
+	text-align: center;
+	color: #777;
+}
+
+.footer a {
+	color: #999;
+}
+.footer a:hover {
+	color: #ccc;
+}
+
+
+/* Internal Pages */
+
+.other-pages h1 {
+	position: relative;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.other-pages h1:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25px;
+	width: 50px;
+	height: 3px;
+	background: #06c;
+}
+
+.other-pages .fullwidth-block:not(.contacts) {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.p-first-letter p:not(.not-first-letter):first-letter {
+	font-weight: bold;
+	font-size: 1.7rem;
+	color: #06c;
+}
+
+
+.heading-left-bot-dash {
+	position: relative;
+	padding-bottom: 15px;
+}
+.heading-left-bot-dash:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50px;
+	height: 3px;
+	background: #ccc;
+}
+
+
+.doc-big-link {
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: 35px;
+	font-size: 2rem;
+}
+.doc-big-link:before {
+	content: "\f0f6";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: FontAwesome;
+}
+
+.doc-big-link .additional-link {
+	display: inline-block;
+	font-size: 1.3rem;
+}
+
+
+.commercial-fish {
+	background: #efefef;
+}
+
+.commercial-fish-item {
+	text-align: center;
+}
+
+.commercial-fish-item .img {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: 15% 50%;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.commercial-fish-item .img.bg-carp {
+	background-image: url(img/content/index/commercial-fish/karp-2-ready.jpg);
+}
+
+.commercial-fish-item .img.bg-tolstolobik {
+	background-image: url(img/content/index/commercial-fish/tolstolobik-ready.jpg);
+}
+
+.commercial-fish-item .img.bg-white-amur {
+	background-image: url(img/content/index/commercial-fish/amur-bely-ready.jpg);
+}
+
+.commercial-fish-item .sign {
+	line-height: 1.2;
+    font-size: 2.3rem;
+}
+
+.commercial-fish .btn-wrapper {
+    margin-top: 15px;
+    padding-top: 30px;
+	padding-bottom: 0;
+    border-top: 1px solid #ccc;
+}
+
+
+.first-line-ad {
+	padding: 20px;
+	border-left: 5px solid #06c;
+}
+
+.services-inner {
+	position: relative;
+	padding: 0 25px !important;
+	height: 800px;
+	background: url(img/content/services/services-1.jpg) no-repeat;
+	background-size: 100% auto;
+}
+
+.services-inner-wrapper {
+	position: relative;
+	top: 20%;
+	padding: 30px;
+	background: #fff;
+	border: 10px solid #e6c382;
+}
+
+.services-inner-item {
+	position: relative;
+	margin-bottom: 30px;
+	padding: 15px 0;
+	width: 100%;
+	height: 250px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.services-inner-item.bottom {
+	margin: 0;
+}
+
+.services-inner-item i.fa.context-icon {
+	width: 60px;
+	height: 60px;
+	background: #e6c382;
+	border-radius: 50%;
+	line-height: 60px;
+	font-size: 2.5rem;
+}
+
+.services-inner-item .btn i.fa {
+	margin-right: 4px;
+}
+
+.services-inner-item h5 {
+	line-height: 1.3;
+}
+
+p.services-pay-fishing .btn {
+	margin-left: 10px;
+}
+
+
+.page-about .p-first-letter {
+	margin-bottom: 0;
+}
+
+.other-pages .pdf-link {
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.about-facts {
+	position: relative;
+	margin-top: 0;
+	height: 230px;
+	background: url(img/slider/slide-3-services-w1600.jpg) no-repeat;
+	background-size: 100% auto;
+}
+.about-facts:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, .6);
+	content: "";
+}
+
+.facts-item {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+
+.facts-item i.fa {
+	margin-bottom: 15px;
+	width: 45px;
+	height: 45px;
+	background: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+	border-radius: 50%;
+	line-height: 45px;
+	font-size: 2rem;
+	color: #06c;
+}
+
+.facts-item .sign span {
+	font-size: 3rem;
+}
+
+.facts-item .sign p {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+.fullwidth-block.about-gallery {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* / Internal Pages */
+
+
+.callback-icon {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #06c;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+	animation: pulse 1s linear infinite alternate;
+}
+.callback-icon:hover {
+	background: #32cee0;
+	color: #fff;
+}
+
+.fancybox-wrap {
+	width: auto !important;
+}
+
+.fancybox-skin {
+	padding: 0 !important;
+}
+
+.fancybox-close {
+	top: 0 !important;
+	right: -38px !important;
+}
+
+.theme-form {
+	margin: 0 auto;
+	padding: 20px;
+	width: 500px;
+	background: #fff;
+	border: 10px solid #06c;
+	color: #333;
+}
+
+
+.theme-form.feedback-form {
+	margin: 20px 0;
+	width: 100%;
+}
+
+.feedback-form .row {
+	margin: 0;
+}
+
+.feedback-form .col-md-6 {
+	padding: 0 5px;
+}
+.feedback-form .col-md-6:first-of-type {
+	padding-left: 0;
+}
+.feedback-form .col-md-6:last-of-type {
+	padding-right: 0;
+}
+
+.feedback-form p.note {
+	margin: 5px 0 0;
+}
+
+.feedback-form .col-md-5 {
+	padding-right: 0;
+}
+
+.feedback-form .btn-wrapper {
+	position: relative;
+	float: right;
+	display: inline-block;
+	padding: 0;
+}
+
+.theme-form h5 {
+	margin-top: 0;
+}
+
+.theme-form i.fa-heading {
+	margin-right: 12px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #32cee0;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.theme-form input::-moz-placeholder, .theme-form textarea::-moz-placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.4rem;
+}
+
+.theme-form input, .theme-form textarea {
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 1.4rem;
+}
+.theme-form input:focus, .theme-form textarea:focus {
+	border-color: #06c;
+}
+
+.theme-form textarea {
+	height: 146px;
+}
+
+.theme-form .btn {
+	margin: 0;
+}
+.theme-form .btn:last-child {
+	margin-left: 6px;
+}
+
+.theme-form .btn i.fa {
+	margin-right: 7px;
+}
+
+
+.feedback-wrapper {
+	padding-bottom: 15px;
+}
+
+
+/* Fancybox Gallery */
+
+.gallery-wrapper {
+	text-align: center;
+}
+
+.gallery-item {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0 15px 15px 0;
+	width: 200px;
+	height: 170px;
+	transition: all .3s linear;
+}
+.gallery-item:after {
+	content: "\f002";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: none;
+	margin-top: -35px;
+	margin-left: -35px;
+	width: 70px;
+	height: 70px;
+	background: #32cee0;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-family: "FontAwesome";
+	font-size: 3rem;
+	color: #fff;
+	transition: all .3s linear;
+}
+.gallery-item:hover:after {
+	display: block;
+}
+
+.gallery-item img {
+	width: auto;
+	height: 100%;
+	transition: all .3s linear;
+}
+.gallery-item:hover img {
+	opacity: .5; /* jumping in Mozilla at first time */
+}
+
+.gallery-item:last-child {
+	margin-right: 0;
+}
+
+/* / Fancybox Gallery */
+
+
+.scrollup {
+	position: fixed;
+	top: 70px;
+	right: 30px;
+	display: none;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, .5);
+	text-align: center;
+	line-height: 36px;
+	color: #fff !important;
+	transition: all .3s linear;
+}
+.scrollup:hover {
+	background: rgba(0, 0, 0, .85);
+}
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+	}
+	25% {
+		transform: scale(0.95);
+	}
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+@keyframes scale-nums {
+	0% {
+		transform: scale(1.05);
+		opacity: .3;
+	}
+	45% {
+		transform: scale(1.1);
+		opacity: .5;
+	}
+	75% {
+		transform: scale(1.05);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: .7;
+	}
+}
+
+@media (max-width: 1199px) {
+	.nav > li > a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.navbar-nav > li > a {
+		font-size: 1.5rem;
+	}
+
+	#testimonials-carousel .carousel-inner > .item {
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	.top-info {
+		margin-top: 51px;
+	}
+
+	.navbar-fixed-top {
+		top: 0;
+	}
+
+	.nav > li > a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.navbar-nav > li > a {
+		font-size: 1.3rem;
+	}
+
+	.services-item {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-display-none {
+		display: none;
+	}
+
+	.page-wrapper {
+		margin-bottom: -150px;
+	}
+
+	.fullwidth-block.contacts {
+		padding-top: 0;
+	}
+
+	.contacts {
+		height: 700px;
+		background: url(img/pattern-gray-1.jpg) #ccc;
+	}
+
+	#yandex-map-construct {
+		top: 300px;
+	}
+
+	.contacts-details-wrapper {
+		margin: 25px 0;
+	}
+
+	.page-buffer {
+		height: 150px;
+	}
+
+	.footer {
+		height: 150px;
+	}
+}
