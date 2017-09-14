@@ -285,18 +285,18 @@ table.default {
 	text-align: center;
 }
 
-table.default tr:nth-child(2n+1) {
-	background: #f5f5f5;
+table.default tr {
+	background: #fff;
 }
 
 table.default th, table.default td {
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 1px solid #b1b1b1;
 }
 
 table.default th {
 	background: #9cccfd;
-	border-color: #7fb0e2;
+	border-color: #5f9caf;
 	text-align: center;
 }
 
