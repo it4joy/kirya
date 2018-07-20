@@ -63,7 +63,10 @@
 										<div class="div-as-table-cell">
 											<i class="fa fa-thumbs-o-up context-icon"></i>
 											<h5>Организация <br> платной рыбалки</h5>
-											<p class="services-pay-fishing">Скоро!<a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a></p>
+											<p class="services-pay-fishing">
+                                              <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a>
+                                              <a href="#pay-fishing-details" class="fancybox-modal btn btn-small btn-bordered gray-border">Подробнее <i class="fa fa-angle-right"></i></a>
+                                            </p>
 										</div>
 									</div>
 								</div>

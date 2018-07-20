@@ -51,6 +51,16 @@
 			</form>
 		</div>
 
+        <div id="pay-fishing-details" class="theme-form hidden-block">
+			<h5 class="text-center">Условия платной рыбалки</h5>
+			<p class="text-left">С 1 июля 2018 г. открыта платная рыбалка на карпа на следующих условиях:</p>
+            <ul class="default-list">
+              <li>стоимость путевки - 1000 руб.</li>
+              <li>норма вылова - 6 кг.</li>
+              <li>время рыбалки: с 4:00 до 20:00</li>
+            </ul>
+		</div>
+
 		<!-- jQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
