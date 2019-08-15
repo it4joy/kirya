@@ -915,7 +915,7 @@ ul.top-contacts i.fa {
 .services-inner {
 	position: relative;
 	padding: 0 25px !important;
-	height: 800px;
+	height: 950px;
 	background: url(img/content/services/services-1.jpg) no-repeat;
 	background-size: 100% auto;
 }
@@ -926,6 +926,11 @@ ul.top-contacts i.fa {
 	padding: 30px;
 	background: #fff;
 	border: 10px solid #e6c382;
+}
+
+.services-important-notes-wrapper {
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .services-inner-item {

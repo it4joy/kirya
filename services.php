@@ -10,6 +10,17 @@
 
 				<div class="fullwidth-block services-inner">
 					<div class="services-inner-wrapper">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="services-important-notes-wrapper">
+                                    <h5>Открыта платная рыбалка на карпа!</h5>
+                                    <p>
+                                        <a href="#pay-fishing-details" class="fancybox-modal btn btn-small btn-blue"><i class="fa fa-info-circle"></i> Узнать подробнее</a>
+                                        <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="services-inner-item">
