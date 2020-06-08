@@ -53,7 +53,7 @@
 
         <div id="pay-fishing-details" class="theme-form hidden-block">
 			<h5 class="text-center">Условия платной рыбалки</h5>
-			<p class="text-left">С 1 июля 2019 г. открыта платная рыбалка на карпа на следующих условиях:</p>
+			<p class="text-left">Платная рыбалка будет организована в 1 декаде июля на следующих условиях:</p>
             <ul class="default-list">
               <li>стоимость - 1000 руб.</li>
               <li>норма вылова - 6 кг.</li>
