@@ -9,15 +9,15 @@
 						<div id="slider-carousel" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#slider-carousel" data-slide-to="0"></li>
 								<li data-target="#slider-carousel" data-slide-to="1"></li>
 								<li data-target="#slider-carousel" data-slide-to="2"></li>
-								<li data-target="#slider-carousel" data-slide-to="3"></li>
+								<li data-target="#slider-carousel" data-slide-to="3" class="active"></li>
 							</ol>
 
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
-								<div class="item active">
+								<div class="item">
 									<img src="img/slider/slide-1-commercial-fish-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>Продажа товарной рыбы (опт и розница)</h3>
@@ -38,10 +38,14 @@
 									</div>
 								</div>
 
-								<div class="item">
+								<div class="item active">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
 									<div class="carousel-caption">
-										<h3>Организация платной рыбалки - скоро!</h3>
+										<h3>Платная рыбалка открыта! 
+                                            <a href="#pay-fishing-details" class="fancybox-modal">
+                                                <i class="fa fa-hand-o-right"></i>
+                                            </a>
+                                        </h3>
 									</div>
 								</div>
 							</div>
