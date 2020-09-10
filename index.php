@@ -41,7 +41,7 @@
 								<div class="item active">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
 									<div class="carousel-caption">
-										<h3>Платная рыбалка открыта! 
+										<h3>Платная рыбалка завершена. 
                                             <a href="#pay-fishing-details" class="fancybox-modal">
                                                 <i class="fa fa-hand-o-right"></i>
                                             </a>

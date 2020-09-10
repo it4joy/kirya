@@ -38,7 +38,9 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h5 class="text-center">Подробности</h5>
+                            <!--
 							<p class="text-left">В настоящее время ООО рыбхоз &laquo;Киря&raquo; принимает заявки на живую рыбу (карп) в количестве не менее 10 кг. по цене 230 руб. за 1 кг.</p>
+                            -->
                             <p class="text-left">Реализация товарной рыбы начнется ориентировочно 15 сентября 2020 г.</p>
 							<table class="default hidden-block">
 								<tr>
