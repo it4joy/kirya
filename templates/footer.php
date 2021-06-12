@@ -54,8 +54,8 @@
         <div id="pay-fishing-details" class="theme-form hidden-block">
 			<h5 class="text-center">Условия платной рыбалки</h5>
 			<p class="text-left">
-                <!--<strong>Платная рыбалка открыта!</strong>-->
-                <strong>Платная рыбалка завершается 07 сентября 2020 г.</strong>
+                <strong>Платная рыбалка начнется во второй декаде июля 2021 года!</strong>
+                <!--<strong>Платная рыбалка завершается 07 сентября 2021 г.</strong>-->
             </p>
             <!--
             <ul class="default-list">

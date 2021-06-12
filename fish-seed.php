@@ -42,7 +42,7 @@
                     <div class="row">
 						<div class="col-md-12 text-center">
 							<p>
-                                <i class="fa fa-calendar"></i> 02.06.2020<strong> - Реализация рыбопосадочного материала завершена.</strong>
+                                <i class="fa fa-calendar"></i> 11.06.2021<strong> - Реализация рыбопосадочного материала завершена.</strong>
                             </p>
 						</div>
 					</div>
