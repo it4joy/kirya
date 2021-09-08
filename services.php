@@ -13,7 +13,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="services-important-notes-wrapper">
-                                    <h5>Платная рыбалка начнется во второй декаде июля 2021 г.</h5>
+                                    <h5>Платная рыбалка завершена с 06.09.2021 г.</h5>
                                     <p>
                                         <a href="#pay-fishing-details" class="fancybox-modal btn btn-small btn-blue"><i class="fa fa-info-circle"></i> Узнать подробнее</a>
                                         <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a>
