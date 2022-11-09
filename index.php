@@ -41,11 +41,13 @@
 								<div class="item active">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
 									<div class="carousel-caption">
-										<h3>Платная рыбалка завершена. 
-                                            <a href="#pay-fishing-details" class="fancybox-modal">
-                                                <i class="fa fa-hand-o-right"></i>
-                                            </a>
-                                        </h3>
+										<h3>
+                        <a href="#pay-fishing-details" class="fancybox-modal">
+                            <!--<i class="fa fa-hand-o-right"></i>-->
+                            <!-- Платная рыбалка начинается с 01 июля 2022 г. -->
+                            Платная рыбалка заканчивается с 9 сентября 2022 г.
+                        </a>
+                    </h3>
 									</div>
 								</div>
 							</div>
@@ -174,8 +176,9 @@
 						<div class="col-md-3 col-sm-6">
 							<div class="services-item">
 								<i class="fa fa-thumbs-o-up"></i>
-								<div class="services-item-sign"><a href="services.php">Платная <br> рыбная ловля</a></div>
-								<p>(скоро - уточняйте <a href="contacts.php">по телефону</a>)</p>
+								<!--<div class="services-item-sign"><a href="services.php">Платная <br> рыбная ловля</a></div>-->
+                                <div class="services-item-sign"><a href="#pay-fishing-details" class="fancybox-modal">Платная <br> рыбная ловля</a></div>
+								<!--<p>(скоро - уточняйте <a href="contacts.php">по телефону</a>)</p>-->
 							</div>
 						</div>
 					</div>

@@ -15,7 +15,7 @@
 					</div>
 
 					<div class="col-md-4 col-sm-4 col-xs-12">
-						<p>Разработка сайта: <a href="http://profitek.su/" target="_blank">ГК &laquo;Профитек&raquo;</a></p>
+						<p>Разработка сайта: <a href="https://profitek.su/" target="_blank">ГК &laquo;Профитек&raquo;</a></p>
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@
 				<button type="submit" class="btn btn-small btn-blue callback-form-hook"><i class="fa fa-paper-plane"></i>Отправить</button>
 			</form>
 		</div>
-		
+
 		<div id="order-form" class="theme-form hidden-block">
 			<h5 class="text-center"><i class="fa fa-check fa-heading"></i>Заявка</h5>
 			<h6 class="current-cat-title text-center"></h6>
@@ -54,20 +54,23 @@
         <div id="pay-fishing-details" class="theme-form hidden-block">
 			<h5 class="text-center">Условия платной рыбалки</h5>
 			<p class="text-left">
-                <!--<strong>Платная рыбалка начнется во второй декаде июля 2021 года!</strong>-->
-                <strong>Платная рыбалка завершена с 06.09.2021 г.</strong>
+                <!-- <strong>Платная рыбалка начинается с 01 июля 2022 г.</strong> -->
+                <strong>Платная рыбалка завершена с 9 сентября 2022 г.</strong>
             </p>
-            <!--
             <ul class="default-list">
-              <li>стоимость - 1000 руб.</li>
+              <li>стоимость путевки - 1500 руб.</li>
               <li>норма вылова - 6 кг.</li>
               <li>время рыбалки: с 04:00 до 19:00</li>
-              <li>за рыбу, выловленную сверх нормы, производить оплату по цене 170 руб. за 1 кг.</li>
+              <li>за рыбу, выловленную сверх нормы: 300 руб. за 1 кг.</li>
             </ul>
-            -->
-            <p>Читайте условия полностью в документе: 
+            <p>Читайте условия полностью в документе:
                 <a href="/docs/pdf/Разрешение_на_лов_рыбы_на_территории_рыбхоза.pdf" target="_blank">Разрешение на лов рыбы на территории рыбхоза</a>
             </p>
+            <div class="text-center">
+                <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border">
+                    <i class="fa fa-phone"></i> Заказать звонок
+                </a>
+            </div>
 		</div>
 
 		<!-- jQuery -->
@@ -77,11 +80,11 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 		<!-- twitter-bootstrap -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<!-- jQuery Validation Plugin -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
-		
+
 		<!-- Yandex Share -->
 		<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 		<script src="//yastatic.net/share2/share.js"></script>
