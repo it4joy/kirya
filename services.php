@@ -13,7 +13,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="services-important-notes-wrapper">
-                                    <h5>Платная рыбалка заканчивается с 9 сентября 2022 г.</h5>
+                                    <!--<h5>ООО рыбхоз «Киря» предоставляет следующие услуги:</h5>-->
+                                    <h5>Открыта платная рыбалка!</h5>
                                     <p>
                                         <a href="#pay-fishing-details" class="fancybox-modal btn btn-small btn-blue"><i class="fa fa-info-circle"></i> Узнать подробнее</a>
                                         <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a>

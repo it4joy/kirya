@@ -9,10 +9,10 @@
 						<div id="slider-carousel" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#slider-carousel" data-slide-to="0"></li>
+								<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
 								<li data-target="#slider-carousel" data-slide-to="1"></li>
 								<li data-target="#slider-carousel" data-slide-to="2"></li>
-								<li data-target="#slider-carousel" data-slide-to="3" class="active"></li>
+								<li data-target="#slider-carousel" data-slide-to="3"></li>
 							</ol>
 
 							<!-- Wrapper for slides -->
@@ -38,16 +38,15 @@
 									</div>
 								</div>
 
-								<div class="item active">
+                                <div class="item active">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>
-                        <a href="#pay-fishing-details" class="fancybox-modal">
-                            <!--<i class="fa fa-hand-o-right"></i>-->
-                            <!-- Платная рыбалка начинается с 01 июля 2022 г. -->
-                            Платная рыбалка заканчивается с 9 сентября 2022 г.
-                        </a>
-                    </h3>
+                                            <a href="#pay-fishing-details" class="fancybox-modal">
+                                                <i class="fa fa-hand-o-right"></i>
+                                                Платная рыбалка начинается с 01 июля 2023 г.
+                                            </a>
+                                        </h3>
 									</div>
 								</div>
 							</div>
