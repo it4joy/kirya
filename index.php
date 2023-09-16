@@ -43,8 +43,8 @@
 									<div class="carousel-caption">
 										<h3>
                                             <a href="#pay-fishing-details" class="fancybox-modal">
-                                                <i class="fa fa-hand-o-right"></i>
-                                                Платная рыбалка начинается с 01 июля 2023 г.
+                                                <!--<i class="fa fa-hand-o-right"></i>-->
+                                                Платная рыбалка завершена
                                             </a>
                                         </h3>
 									</div>

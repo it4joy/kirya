@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-sm-4 col-xs-12">
-						<p>&copy; ООО рыбхоз &laquo;Киря&raquo;, 2016 <br> Все права защищены</p>
+						<p>&copy; ООО рыбхоз &laquo;Киря&raquo;, 2016-2023 <br> Все права защищены</p>
 					</div>
 
 					<div class="col-md-4 col-sm-4 col-xs-12">
@@ -54,15 +54,17 @@
         <div id="pay-fishing-details" class="theme-form hidden-block">
 			<h5 class="text-center">Условия платной рыбалки</h5>
 			<p class="text-left">
-                <strong>Платная рыбалка начинается с 01 июля 2023 г.</strong>
-                <!--<strong>Платная рыбалка завершена с 9 сентября 2022 г.</strong>-->
+                <!--<strong>Платная рыбалка начинается с 01 июля 2023 г.</strong>-->
+                <strong>Платная рыбалка завершена с 13 сентября 2023 г.</strong>
             </p>
+            <!--
             <ul class="default-list">
               <li>цена билета - 1000 руб.</li>
               <li>норма вылова - 5 кг.</li>
               <li>время рыбалки: с 04:00 до 19:00</li>
               <li>за рыбу, выловленную сверх нормы: 300 руб. за 1 кг.</li>
             </ul>
+            -->
             <p>Читайте условия полностью в документе:
                 <a href="/docs/pdf/Разрешение_на_лов_рыбы_на_территории_рыбхоза.pdf" target="_blank">Разрешение на лов рыбы на территории рыбхоза</a>
             </p>
