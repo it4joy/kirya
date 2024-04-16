@@ -57,10 +57,10 @@
 								<tr>
 									<td>Карп прудовый</td>
 									<td class="hidden">1200-2000 гр</td>
-									<td>250 руб.</td>
-									<td class="hidden">130 руб/кг</td>
+									<td>Договорная</td>
 									<td rowspan="3">Оптовые цены</td>
 								</tr>
+								<!--
 								<tr>
 									<td>Толстолобик</td>
 									<td class="hidden">2500-3000 гр</td>
@@ -73,6 +73,7 @@
 									<td>200 руб.</td>
 									<td class="hidden">150 руб/кг</td>
 								</tr>
+								-->
 							</table>
 						</div>
 					</div>
