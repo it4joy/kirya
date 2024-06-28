@@ -43,8 +43,9 @@
 									<div class="carousel-caption">
 										<h3>
                                             <a href="#pay-fishing-details" class="fancybox-modal">
-                                                <!--<i class="fa fa-hand-o-right"></i>-->
-                                                Платная рыбалка завершена
+                                                <i class="fa fa-hand-o-right"></i>
+                                                <!-- Платная рыбалка завершена -->
+												С 28 июня 2024 г. открывается платная рыбалка
                                             </a>
                                         </h3>
 									</div>
