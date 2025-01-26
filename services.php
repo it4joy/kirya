@@ -14,8 +14,8 @@
                             <div class="col-md-12">
                                 <div class="services-important-notes-wrapper">
                                     <!--<h5>ООО рыбхоз «Киря» предоставляет следующие услуги:</h5>-->
-                                    <!-- <h5>Платная рыбалка завершена.</h5> -->
-									<h5>С 28 июня 2024 г. открывается платная рыбалка!</h5>
+                                    <h5>Платная рыбалка завершена.</h5>
+									<!-- <h5>С xx июня 2025 г. открывается платная рыбалка!</h5> -->
                                     <p>
                                         <a href="#pay-fishing-details" class="fancybox-modal btn btn-small btn-blue"><i class="fa fa-info-circle"></i> Узнать подробнее</a>
                                         <a href="#callback-form" class="fancybox-modal btn btn-small btn-bordered gray-border"><i class="fa fa-phone"></i> Заказать звонок</a>
