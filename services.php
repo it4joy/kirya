@@ -39,7 +39,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-6">
+							<!-- <div class="col-md-6">
 								<div class="services-inner-item">
 									<div class="div-as-table">
 										<div class="div-as-table-cell">
@@ -52,11 +52,11 @@
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
+							</div> -->
+						<!-- </div>
 
-						<div class="row">
-							<div class="col-md-6">
+						<div class="row"> -->
+							<!-- <div class="col-md-6">
 								<div class="services-inner-item bottom">
 									<div class="div-as-table">
 										<div class="div-as-table-cell">
@@ -68,7 +68,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<div class="col-md-6">
 								<div class="services-inner-item bottom">

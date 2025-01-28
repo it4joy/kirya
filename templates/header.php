@@ -12,7 +12,7 @@
 
 						<div class="col-md-4 col-sm-4 col-xs-6 top-info-item">
 							<ul class="top-contacts">
-								<li><i class="fa fa-phone"></i> <a href="tel:78354323295">(83543) 23-2-95</a></li>
+								<li><i class="fa fa-phone"></i> <a href="tel:79523114797">+7 952 311-47-97</a></li>
 							</ul>
 						</div>
 					</div>
@@ -35,7 +35,7 @@
 							<ul class="nav navbar-nav">
 								<li><a href="/">ООО рыбхоз &laquo;Киря&raquo;</a></li>
 								<li><a href="commercial-fish.php">Товарная рыба</a></li>
-								<li><a href="fish-seed.php">Рыбопосадочный материал</a></li>
+								<!-- <li><a href="fish-seed.php">Рыбопосадочный материал</a></li> -->
 								<li><a href="services.php">Услуги</a></li>
 								<li><a href="about.php">О нас</a></li>
 								<li><a href="contacts.php">Контакты</a></li>

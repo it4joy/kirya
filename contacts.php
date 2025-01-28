@@ -22,7 +22,7 @@
 							<div class="contacts-details-wrapper">
 								<div class="contacts-details">
 									<p><strong>Адрес:</strong> 429030 Чувашская Республика, Порецкий р-н, <br> с. Кудеиха, ул. Ленина, д. 100</p>
-									<p><strong>Тел.:</strong> <a href="tel:78354323295">(83543) 23-2-95</a>, <a href="tel:+79278539000">+7 927 853-90-00</a></p>
+									<p><strong>Тел.:</strong> <a href="tel:+79278539000">+7 927 853-90-00</a>, <a href="tel:79523114797">+7 952 311-47-97</a></p>
 									<p><strong>E-mail:</strong> <a href="mailto:rubxoz@cbx.ru">rubxoz@cbx.ru</a></p>
 									<p><i class="fa fa-phone"></i> <a href="#callback-form" class="fancybox-modal">Заказать обратный звонок</a></p>
 								</div>

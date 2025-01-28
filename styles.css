@@ -558,9 +558,9 @@ ul.top-contacts i.fa {
 	height: 250px;
 }
 
-.index-page .commercial-item {
+/* .index-page .commercial-item {
 	margin-bottom: 0;
-}
+} */
 
 .commercial-item .item-sign p {
 	display: none;
@@ -923,7 +923,8 @@ ul.top-contacts i.fa {
 .services-inner {
 	position: relative;
 	padding: 0 25px !important;
-	height: 950px;
+	/* height: 950px; */
+	height: 650px;
 	background: url(img/content/services/services-1.jpg) no-repeat;
 	background-size: 100% auto;
 }

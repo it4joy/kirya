@@ -11,8 +11,8 @@
 							<ol class="carousel-indicators">
 								<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
 								<li data-target="#slider-carousel" data-slide-to="1"></li>
-								<li data-target="#slider-carousel" data-slide-to="2"></li>
-								<li data-target="#slider-carousel" data-slide-to="3"></li>
+								<!-- <li data-target="#slider-carousel" data-slide-to="2"></li>
+								<li data-target="#slider-carousel" data-slide-to="3"></li> -->
 							</ol>
 
 							<!-- Wrapper for slides -->
@@ -24,7 +24,7 @@
 									</div>
 								</div>
 
-								<div class="item">
+								<!-- <div class="item">
 									<img src="img/slider/slide-2-fish-seed-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>Реализация рыбопосадочного материала</h3>
@@ -36,7 +36,7 @@
 									<div class="carousel-caption">
 										<h3>Доставка рыбопосадочного материала</h3>
 									</div>
-								</div>
+								</div> -->
 
                                 <div class="item active">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
@@ -71,7 +71,7 @@
 				</div>
 
 				<div class="row commercial-fish">
-					<div class="col-md-4">
+					<div class="col-md-4 col-md-offset-4">
 						<div class="commercial-item">
 							<div class="item-bg bg-carp"></div>
 							<div class="item-sign">Карп
@@ -80,7 +80,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-4">
+					<!-- <div class="col-md-4">
 						<div class="commercial-item">
 							<div class="item-bg bg-tolstolobik"></div>
 							<div class="item-sign">Толстолобик
@@ -97,6 +97,7 @@
 							</div>
 						</div>
 					</div>
+					-->
 				</div>
 
 				<div class="text-center btn-wrapper">
@@ -104,7 +105,7 @@
 				</div>
 			</div>
 
-			<div class="container bg-white fish-seed-wrapper">
+			<!-- <div class="container bg-white fish-seed-wrapper">
 				<div class="text-center">
 					<h1 data-cat-title="Рыбопосадочный материал">Рыбопосадочный материал</h1>
 					<h5>реализация годовика и двухлетки</h5>
@@ -142,7 +143,7 @@
 				<div class="text-center btn-wrapper">
 					<a href="#order-form" class="fancybox-modal btn btn-small btn-blue btn-order btn-index"><i class="fa fa-check"></i> Заказать</a>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="container bg-white services-wrapper">
 				<div class="fullwidth-block services">
@@ -151,7 +152,7 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-3 col-sm-6">
+						<div class="col-md-3 col-sm-6 col-md-offset-3 col-sm-offset-6">
 							<div class="services-item">
 								<i class="fa fa-shopping-basket"></i>
 								<div class="services-item-sign"><a href="commercial-fish.php">Продажа <br> товарной рыбы</a></div>
@@ -159,7 +160,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 col-sm-6">
+						<!-- <div class="col-md-3 col-sm-6">
 							<div class="services-item">
 								<i class="fa fa-shopping-cart"></i>
 								<div class="services-item-sign"><a href="fish-seed.php">Реализация рыбо- <br>посадочного материала</a></div>
@@ -171,14 +172,12 @@
 								<i class="fa fa-truck"></i>
 								<div class="services-item-sign"><a href="services.php">Доставка рыбо- <br>посадочного материала</a></div>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="col-md-3 col-sm-6">
 							<div class="services-item">
 								<i class="fa fa-thumbs-o-up"></i>
-								<!--<div class="services-item-sign"><a href="services.php">Платная <br> рыбная ловля</a></div>-->
                                 <div class="services-item-sign"><a href="#pay-fishing-details" class="fancybox-modal">Платная <br> рыбная ловля</a></div>
-								<!--<p>(скоро - уточняйте <a href="contacts.php">по телефону</a>)</p>-->
 							</div>
 						</div>
 					</div>
@@ -262,7 +261,7 @@
 							<div class="contacts-details-wrapper">
 								<div class="contacts-details">
 									<p><strong>Адрес:</strong> 429030 Чувашская Республика, Порецкий р-н, <br> с. Кудеиха, ул. Ленина, д. 100</p>
-									<p><strong>Тел.:</strong> <a href="tel:78354323295">(83543) 23-2-95</a>, <a href="tel:+79278539000">+7 927 853-90-00</a></p>
+									<p><strong>Тел.:</strong> <a href="tel:+79278539000">+7 927 853-90-00</a>, <a href="tel:79523114797">+7 952 311-47-97</a></p>
 									<p><strong>E-mail:</strong> <a href="mailto:rubxoz@cbx.ru">rubxoz@cbx.ru</a></p>
 									<p><i class="fa fa-phone"></i> <a href="#callback-form" class="fancybox-modal">Заказать обратный звонок</a></p>
 								</div>
