@@ -164,7 +164,7 @@
 							<div class="services-item">
 								<i class="fa fa-shopping-cart"></i>
 								<div class="services-item-sign"><a href="fish-seed.php">Реализация рыбо- <br>посадочного материала</a></div>
-								<p>со второй половины апреля</p>
+								<p>во второй половине апреля</p>
 							</div>
 						</div>
 

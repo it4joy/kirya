@@ -35,7 +35,7 @@
 							<ul class="nav navbar-nav">
 								<li><a href="/">ООО рыбхоз &laquo;Киря&raquo;</a></li>
 								<li><a href="commercial-fish.php">Товарная рыба</a></li>
-								<!-- <li><a href="fish-seed.php">Рыбопосадочный материал</a></li> -->
+								<li><a href="fish-seed.php">Рыбопосадочный материал</a></li>
 								<li><a href="services.php">Услуги</a></li>
 								<li><a href="about.php">О нас</a></li>
 								<li><a href="contacts.php">Контакты</a></li>
