@@ -17,14 +17,15 @@
 
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
-								<div class="item">
+								<div class="item active">
 									<img src="img/slider/slide-1-commercial-fish-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>Продажа товарной рыбы (опт и розница)</h3>
+										<p><a href="/commercial-fish.php">Началась реализация прудовой рыбы: карп, толстолобик, белый Амур.</a></p>
 									</div>
 								</div>
 
-								<div class="item active">
+								<div class="item">
 									<img src="img/slider/slide-2-fish-seed-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>Реализация рыбопосадочного материала</h3>
@@ -44,8 +45,8 @@
 										<h3>
                                             <a href="#pay-fishing-details" class="fancybox-modal">
                                                 <i class="fa fa-hand-o-right"></i>
-                                                <!-- Платная рыбалка завершена -->
-												Платная рыбалка открыта
+                                                Платная рыбалка завершена
+												<!-- Платная рыбалка открыта -->
 												<!-- С 28 июня 2024 г. открывается платная рыбалка -->
                                             </a>
                                         </h3>
@@ -72,7 +73,7 @@
 				</div>
 
 				<div class="row commercial-fish">
-					<div class="col-md-4 col-md-offset-4">
+					<div class="col-md-4">
 						<div class="commercial-item">
 							<div class="item-bg bg-carp"></div>
 							<div class="item-sign">Карп
@@ -81,7 +82,7 @@
 						</div>
 					</div>
 
-					<!-- <div class="col-md-4">
+					<div class="col-md-4">
 						<div class="commercial-item">
 							<div class="item-bg bg-tolstolobik"></div>
 							<div class="item-sign">Толстолобик
@@ -98,7 +99,6 @@
 							</div>
 						</div>
 					</div>
-					-->
 				</div>
 
 				<div class="text-center btn-wrapper">

@@ -476,11 +476,11 @@ ul.top-contacts i.fa {
 	color: #fff;
 }
 
-.carousel-inner h3 a {
+.carousel-inner a {
     color: #fff;
 }
 
-.carousel-inner h3 a:hover {
+.carousel-inner a:hover {
     opacity: 0.7;
 }
 

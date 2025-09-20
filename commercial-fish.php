@@ -11,14 +11,14 @@
 
 				<div class="fullwidth-block">
 					<div class="row">
-						<div class="col-md-4 col-md-offset-4">
+						<div class="col-md-4">
 							<div class="commercial-fish-item">
 								<div class="img bg-carp"></div>
 								<div class="sign">Карп</div>
 							</div>
 						</div>
 
-						<!-- <div class="col-md-4">
+						<div class="col-md-4">
 							<div class="commercial-fish-item">
 								<div class="img bg-tolstolobik"></div>
 								<div class="sign">Толстолобик</div>
@@ -30,7 +30,7 @@
 								<div class="img bg-white-amur"></div>
 								<div class="sign">Белый амур</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
 				</div>
 
@@ -52,7 +52,7 @@
 									<th class="hidden">Навеска</th>
 									<th>за 1 кг.</th>
 									<th class="hidden">от 100 до 1000 кг</th>
-									<th>от 100 кг</th>
+									<th>от 500 кг</th>
 								</tr>
 								<!-- <tr>
 									<td>Карп прудовый</td>
@@ -60,7 +60,7 @@
 									<td>Договорная</td>
 									<td rowspan="3">Оптовые цены</td>
 								</tr> -->
-								<tr>
+								<!-- <tr>
 									<td>Карп мороженый</td>
 									<td class="hidden">2500-3000 гр</td>
 									<td>300 руб.</td>
@@ -72,6 +72,13 @@
 									<td class="hidden">2500-3000 гр</td>
 									<td>610 руб.</td>
 									<td class="hidden">90 руб/кг</td>
+								</tr> -->
+								<tr>
+									<td>Карп, толстолобик, белый Амур</td>
+									<td class="hidden">2500-3000 гр</td>
+									<td>300 руб.</td>
+									<td class="hidden">90 руб/кг</td>
+									<td rowspan="2">280 руб/кг (оптовые цены)</td>
 								</tr>
 								<!--
 								<tr>
