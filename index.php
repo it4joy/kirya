@@ -17,7 +17,7 @@
 
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
-								<div class="item active">
+								<div class="item">
 									<img src="img/slider/slide-1-commercial-fish-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>Продажа товарной рыбы (опт и розница)</h3>
@@ -39,15 +39,14 @@
 									</div>
 								</div> -->
 
-                                <div class="item">
+                                <div class="item active">
 									<img src="img/slider/slide-4-pay-fishing-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>
                                             <a href="#pay-fishing-details" class="fancybox-modal">
                                                 <i class="fa fa-hand-o-right"></i>
-                                                Платная рыбалка завершена
-												<!-- Платная рыбалка открыта -->
-												<!-- С 28 июня 2024 г. открывается платная рыбалка -->
+                                                <!-- Платная рыбалка завершена -->
+												Платная рыбалка открыта с 27 июня 2026 г.
                                             </a>
                                         </h3>
 									</div>
