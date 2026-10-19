@@ -52,8 +52,15 @@
 									<th class="hidden">Навеска</th>
 									<th>за 1 кг.</th>
 									<th class="hidden">от 100 до 1000 кг</th>
-									<th>от 500 кг</th>
+									<th>от 300 кг</th>
 								</tr>
+								<!-- <tr>
+									<th>Наименование</th>
+									<th class="hidden">Навеска</th>
+									<th>за 1 кг.</th>
+									<th class="hidden">от 100 до 1000 кг</th>
+									<th>от 500 кг</th>
+								</tr> -->
 								<!-- <tr>
 									<td>Карп прудовый</td>
 									<td class="hidden">1200-2000 гр</td>
@@ -74,12 +81,19 @@
 									<td class="hidden">90 руб/кг</td>
 								</tr> -->
 								<tr>
+									<td>Карп</td>
+									<td class="hidden">2500-3000 гр</td>
+									<td>350 руб.</td>
+									<td class="hidden">90 руб/кг</td>
+									<td rowspan="2">300 руб/кг (оптовые цены)</td>
+								</tr>
+								<!-- <tr>
 									<td>Карп, толстолобик, белый Амур</td>
 									<td class="hidden">2500-3000 гр</td>
 									<td>300 руб.</td>
 									<td class="hidden">90 руб/кг</td>
 									<td rowspan="2">280 руб/кг (оптовые цены)</td>
-								</tr>
+								</tr> -->
 								<!--
 								<tr>
 									<td>Толстолобик</td>

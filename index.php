@@ -21,7 +21,7 @@
 									<img src="img/slider/slide-1-commercial-fish-w1600.jpg" alt="">
 									<div class="carousel-caption">
 										<h3>Продажа товарной рыбы (опт и розница)</h3>
-										<p><a href="/commercial-fish.php">Началась реализация прудовой рыбы: карп, толстолобик, белый Амур.</a></p>
+										<p><a href="/commercial-fish.php">Началась реализация прудовой рыбы: карп<!--, толстолобик, белый Амур. --></a></p>
 									</div>
 								</div>
 
@@ -45,8 +45,8 @@
 										<h3>
                                             <a href="#pay-fishing-details" class="fancybox-modal">
                                                 <i class="fa fa-hand-o-right"></i>
-                                                <!-- Платная рыбалка завершена -->
-												Платная рыбалка открыта с 27 июня 2026 г.
+                                                Платная рыбалка завершена
+												<!-- Платная рыбалка открыта с 27 июня 2026 г. -->
                                             </a>
                                         </h3>
 									</div>
